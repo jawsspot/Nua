@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto'), local('Roboto-Regular'),
+       url('../webfonts/Gilroy-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../webfonts/Gilroy-Regular.woff') format('woff'); /* Modern Browsers */
+}
+
+@font-face {
+  font-family: 'Gilroy';/* название семейства шрифтов */
+  font-style: normal; /*начертание текста  */
+  font-weight: 700;   /* размер шрифта */
+  font-display: swap;/* Браузер сразу отрисовывает текст безопасным шрифтом и пользователь не видит пустого экрана дожидаясь загрузки шрифта. Но когда шрифт загрузится, он сразу заменится. */
+  src: local('Gilroy'), local('Gilroy-Medium'),
+       url('../webfonts/Gilroy-Medium.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../webfonts/Gilroy-Medium.woff') format('woff'); /* Modern Browsers */
+ 
+}
+

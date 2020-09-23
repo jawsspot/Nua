@@ -1,0 +1,178 @@
+ul, li {
+	list-style-type: none;
+	padding: 0;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #000000;
+}
+
+body {
+	background-color: #000000;
+	color: #ffffff;
+	font-family: "Gilroy", "Arial", sans-serif !important;
+	overflow: auto !important;
+}
+
+h1 {
+	font-size: 17px  ; 
+	margin: 0;
+}
+
+
+
+.landingMenu_h1 {
+	background-color: #000000 !important;
+	color: #ffffff !important;
+	padding: 0 !important;
+}
+h2 {
+	 font-size: 20px;
+	 padding-left: 16px;
+}
+
+h3	{
+	font-size: 19px;
+}
+
+p 	{
+	font-size: 12px;
+	line-height: 20px;
+}
+
+
+a {
+	font-size: 10px;
+}
+
+.landingItem div {
+	min-height: 193px;
+}
+
+.header_top {
+	border-bottom: 2px solid rgb(4, 175, 4);
+}
+.img-logo {
+	height: 25px;
+	width: 25px;
+}
+
+.landingMenu .info {
+	font-size: 10px;
+	background-color: rgb(4, 175, 4);
+	border-radius: 2px;
+	border: none;
+}
+
+.header_bottom {
+	border-bottom: .5px solid #5e5c5ccb ;
+}
+
+.activ {
+	background-color: #ffffff;
+	color: #000000;
+	padding: 2px;
+	border-radius: 2px;
+}
+.button {
+	background-color: #312f2f;
+	color: #ffffff;
+	padding: 2px;
+	border-radius: 2px;
+}
+
+.line {
+	height: 2px;
+	background-color: rgb(4, 175, 4);
+}
+
+.tel {
+	width: 20px;
+}
+
+.dev a {
+	font-size: 12px;
+	color: rgb(4, 175, 4);
+}
+
+
+/* liland */
+
+.landingItem div {
+	border: 1px solid #ffffff;	
+}
+
+
+
+
+
+.landingMenu a {
+	
+	text-transform:uppercase;
+	text-decoration:none;
+}
+.landingMenu .cur {
+	background-color: #ffffff;
+	color: #000000;
+	padding: 2px;
+	border-radius: 2px;
+}
+
+.landingItem {
+	position:relative;
+	margin: 0;
+}
+
+
+.screenDecor { opacity:0;} 
+
+
+/* popup*/
+
+
+.b-popup	{
+	display: none;
+    width:100%;
+    min-height:100%;
+    background-color: rgba(0,0,0,0.8);
+	top: 0;
+    position:fixed;
+	padding-top:104px;
+	overflow-y: scroll
+}
+.b-popup .b-popup-content	{
+    margin:40px auto 40px auto;
+    padding:10px;
+	border-radius:5px;
+	background-color: #000000;
+	border: 1px solid rgb(4, 175, 4);
+	position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.b-popup img {
+	width: 20px;
+}
+
+
+
+/* popup nua */
+.b-popup-nua {
+    width:100%;
+    min-height:100%;
+    background-color: rgba(0,0,0);
+	top: 0;
+	bottom: 0;
+    position:fixed;
+}
+
+
+
+
+
+
+
+
+
